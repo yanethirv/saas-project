@@ -1,75 +1,20 @@
-# Nuxt 3 Minimal Starter
+# Saas Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Nuxt https://nuxt.com/
+Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.
 
-## Setup
+## Component Library https://www.shadcn-vue.com/
+Re-usable components built with Radix Vue, and Tailwind CSS.
 
-Make sure to install the dependencies:
+## Auth UI Vue https://github.com/nuxtbase/auth-ui-vue
+Pre-built Auth UI base on Supabase for Vue.
 
-```bash
-# npm
-npm install
+npm install @nuxtjs/supabase @supabase/auth-ui-shared @nuxtbase/auth-ui-vue -D
 
-# pnpm
-pnpm install
+## Supabase https://supabase.nuxtjs.org/ https://supabase.nuxtjs.org/get-started
 
-# yarn
-yarn install
+Supabase is an open source Firebase alternative.
+Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings.
 
-# bun
-bun install
-```
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
